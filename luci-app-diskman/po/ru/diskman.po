@@ -197,8 +197,9 @@ msgid "Destination Path (optional)"
 msgstr "Целевой путь (необязательно)"
 
 msgid "Metadata"
-msgstr "Metadata"
-Метаданные
+msgstr "Метаданные"
+
+msgid "Data"
 msgstr "Дата"
 
 msgid "Btrfs Info"
@@ -241,7 +242,7 @@ msgid "Please select file system!"
 msgstr "Пожалуйста, выберите файловую систему!"
 
 msgid "Format partation:"
-msgstr "Формат раздела:"
+msgstr "ФорматироватьZ раздела:"
 
 msgid "Warnning !! \nTHIS WILL OVERWRITE EXISTING PARTITIONS!! \nModify the partition table?"
 msgstr "Предупреждение !! \nСУЩЕСТВУЮЩИЕ РАЗДЕЛЫ БУДУТ ПЕРеПИСАНЫ !! \nИзменить таблицу разделов?"
