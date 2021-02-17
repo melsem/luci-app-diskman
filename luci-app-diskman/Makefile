@@ -6,13 +6,13 @@ PKG_RELEASE:=beta
 PKG_MAINTAINER:=lisaac <https://github.com/lisaac/luci-app-diskman>
 PKG_LICENSE:=AGPL-3.0
 
-PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/lisaac/luci-app-diskman.git
-PKG_SOURCE_VERSION:=$(PKG_VERSION)
-
-PKG_SOURCE_SUBDIR:=$(PKG_NAME)
-PKG_SOURCE:=$(PKG_SOURCE_SUBDIR)-$(PKG_SOURCE_VERSION).tar.gz
-PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_SOURCE_SUBDIR)/applications/luci-app-diskman
+# PKG_SOURCE_PROTO:=git
+# PKG_SOURCE_URL:=https://github.com/lisaac/luci-app-diskman.git
+# PKG_SOURCE_VERSION:=$(PKG_VERSION)
+# 
+# PKG_SOURCE_SUBDIR:=$(PKG_NAME)
+# PKG_SOURCE:=$(PKG_SOURCE_SUBDIR)-$(PKG_SOURCE_VERSION).tar.gz
+# PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_SOURCE_SUBDIR)/applications/luci-app-diskman
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -57,7 +57,9 @@ define Package/$(PKG_NAME)/description
 endef
 
 define Build/Prepare
-	tar -xzvf $(DL_DIR)/$(PKG_SOURCE) -C $(BUILD_DIR)
+#	tar -xzvf $(DL_DIR)/$(PKG_SOURCE) -C $(BUILD_DIR)
+	mkdir -p $(PKG_BUILD_DIR)
+	$(CP) ./* $(PKG_BUILD_DIR)/
 endef
 
 define Build/Compile

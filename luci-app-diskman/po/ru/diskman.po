@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: diskman\n"
+"luciapplicationshd-idle/ru/>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4-dev\n"
+
+msgid "DiskMan"
+msgstr "Менеджер дисков"
+
+msgid "Manage Disks over LuCI."
+msgstr "Управление дисками с LuCI"
+
+msgid "Rescan Disks"
+msgstr "Поик дисков"
+
+msgid "Disks"
+msgstr "Диски"
+
+msgid "Path"
+msgstr "Патч"
+
+msgid "Serial Number"
+msgstr "Серийный номер"
+
+msgid "Temp"
+msgstr "Температура"
+
+msgid "Partition Table"
+msgstr "Таблица разделов"
+
+msgid "SATA Version"
+msgstr "SATA версия"
+
+msgid "Health"
+msgstr "Health"
+
+msgid "File System"
+msgstr "Файловая система"
+
+msgid "Mount Options"
+msgstr "Опции монтирования"
+
+msgid "Mount"
+msgstr "Примонтировать"
+
+msgid "Umount"
+msgstr "Отмонтировать"
+
+msgid "Eject"
+msgstr "Eject"
+
+msgid "New"
+msgstr "Новый"
+
+msgid "Remove"
+msgstr "Удалить"
+
+msgid "Format"
+msgstr "Форматировать"
+
+msgid "Start Sector"
+msgstr "Начальный сектор"
+
+msgid "End Sector"
+msgstr "Конечный сектор"
+
+msgid "Usage"
+msgstr "Использавано"
+
+msgid "Used"
+msgstr "Занято"
+
+msgid "Free Space"
+msgstr "Свободное место"
+
+msgid "Model"
+msgstr "Модель устройства"
+
+msgid "Size"
+msgstr "Размер"
+
+msgid "Status"
+msgstr "Состояние"
+
+msgid "Mount Point"
+msgstr "Точка монтирования"
+
+msgid "Sector Size"
+msgstr "Размер сектора"
+
+msgid "Rotation Rate"
+msgstr "Скорость вращения"
+
+msgid "RAID Devices"
+msgstr "RAID-устройства"
+
+msgid "RAID mode"
+msgstr "Режим RAID"
+
+msgid "Members"
+msgstr "Владелец"
+
+msgid "Active"
+msgstr "Активный"
+
+msgid "RAID Creation"
+msgstr "Мастер RAID"
+
+msgid "Raid Name"
+msgstr "Raid-Имя"
+
+msgid "Raid Level"
+msgstr "Уровень RAID"
+
+msgid "Raid Member"
+msgstr "Raid Member"
+
+msgid "Create Raid"
+msgstr "Создать RAID"
+
+msgid "Partition Management"
+msgstr "Менеджер разделов"
+
+msgid "Partition Disk over LuCI."
+msgstr "Управляйте своими разделами через LuCI."
+
+msgid "Device Info"
+msgstr "Informacja o urządzeniu"
+
+msgid "Disk Man"
+msgstr "Менеджер-дисков"
+
+msgid "Partitions Info"
+msgstr "Информация о разделах"
+
+msgid "Default 2048 sector alignment, support +size{b,k,m,g,t} in End Sector"
+msgstr "Секторы выровнены до кратного 2048, конечный сектор может быть задан как размер в форме + размер {b, k, m, g, t}"
+
+msgid "Multiple Devices Btrfs Creation"
+msgstr "Создание нескольких устройств Btrfs"
+
+msgid "Label"
+msgstr "Этикетка"
+
+msgid "Btrfs Label"
+msgstr "Этикетка Btrfs"
+
+msgid "Btrfs Raid Level"
+msgstr "Уровень Raid Btrfs"
+
+msgid "Btrfs Member"
+msgstr "Btrfs Member"
+
+msgid "Create Btrfs"
+msgstr "Создать Btrfs"
+
+msgid "New Snapshot"
+msgstr "Новый образ"
+
+msgid "SubVolumes"
+msgstr "Подкаталог"
+
+msgid "Top Level"
+msgstr "Top Level"
+
+msgid "Manage Btrfs"
+msgstr "Управление Btrfs"
+
+msgid "Otime"
+msgstr "Время"
+
+msgid "Snapshots"
+msgstr "Образ"
+
+msgid "Set Default"
+msgstr "Сбросить"
+
+msgid "Source Path"
+msgstr "Исходный Path"
+
+msgid "Readonly"
+msgstr "Только чтение"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Create"
+msgstr "Создать"
+
+msgid "Destination Path (optional)"
+msgstr "Целевой путь (необязательно)"
+
+msgid "Metadata"
+msgstr "Metadata"
+Метаданные
+msgstr "Дата"
+
+msgid "Btrfs Info"
+msgstr "Информация о Btrfs"
+
+msgid "The source path for create the snapshot"
+msgstr "Исходный путь для создания изображения"
+
+msgid "The path where you want to store the snapshot"
+msgstr "Путь, по которому вы хотите сохранить изображение"
+
+msgid "Please input Source Path of snapshot, Source Path must start with '/'"
+msgstr "Пожалуйста, введите исходный путь для изображения, путь должен начинаться с '/'"
+
+msgid "Please input Subvolume Path, Subvolume must start with '/'"
+msgstr "Введите путь к вложенному тому, вложенный том должен начинаться с '/'"
+
+msgid "is in use! please unmount it first!"
+msgstr "в настоящее время используется, пожалуйста, сначала отключите！"
+
+msgid "Partition NOT found!"
+msgstr "Раздел не найден！"
+
+msgid "Filesystem NOT support!"
+msgstr "Файловая система не поддерживается！"
+
+msgid "Invalid Start Sector!"
+msgstr "Недействительный начальный сектор！"
+
+msgid "Invalid End Sector"
+msgstr "Недействительный конечный сектор！"
+
+msgid "Partition not exists!"
+msgstr "Раздела не существует!"
+
+msgid "Creation"
+msgstr "Создать"
+
+msgid "Please select file system!"
+msgstr "Пожалуйста, выберите файловую систему!"
+
+msgid "Format partation:"
+msgstr "Формат раздела:"
+
+msgid "Warnning !! \nTHIS WILL OVERWRITE EXISTING PARTITIONS!! \nModify the partition table?"
+msgstr "Предупреждение !! \nСУЩЕСТВУЮЩИЕ РАЗДЕЛЫ БУДУТ ПЕРеПИСАНЫ !! \nИзменить таблицу разделов?"
